@@ -345,7 +345,7 @@
       </section>
     </main>
     <!-------Contacts  FOOTER------>
-    <footer class="footer">
+     <footer class="footer">
       <div class="container footer-conteiner">
         <div>
           <a class="link webstudio-footer" href="./index.html" lang="en"
@@ -407,31 +407,52 @@
               </a>
             </li>
           </ul>
+          </div>
+        <div>
+        <p class="join">підпишіться на розсилку</p>
+      <form class="form-footer">
+ <label for="meil" class="placeholder-footer">
+            <input type="text" name="E-mail" id="mail" placeholder="E-mail" class="footer-mail">
+            </label>
+            <button class="footer-booton-join">Підписатися
+             <svg aria-label="іконка відправки" class="icon-send-footer">
+  <use href="./images/icons.svg#icon-icon-send-1"></use>
+            </svg>
+           </button>
+      </form>
         </div>
       </div>
     </footer>
 <div class="beckdrop is-hidden" data-modal>
 <div class="modal-window-open">
+  <form class="leave-data">
 <button class="modal-close-btn" data-modal-close>
   <svg aria-label="закриття" class="modal-window-close">
     <use href="./images/icons.svg#icon-close">
     </use>
   </svg>
 </button>
-<h2>Залиште свої дані, ми вам передзвонимо</h2>
-<form>
-  <label for="name">Ім'я</label>
-  <input type="text" name="name" id="neme" placeholder="лого-імя" autofocus>
-  <label for="tel">Телефон</label>
-  <input type="tel" name="tel" id="tel" placeholder="лого-тел" >
-  <label for="mail">Пошта</label>
-  <input type="email" name="mail" id="mail" placeholder="лого-емейл">
-  <label for="comment">Коментар</label>
+<h2 class="leave-text">Залиште свої дані, ми вам передзвонимо</h2>
+  <div class="modal-complement"><label for="name">Ім'я</label>
+  <input class="input-modal"type="text" name="name" id="neme" placeholder="" autofocus>
+</div>
+  <div class="modal-complement">
+    <label for="tel">Телефон</label>
+  <input class="input-modal"type="tel" name="tel" id="tel" placeholder="">
+<svg aria-label="" class="icon-vector-modal">
+  <use href="./images/icons.svg#icon-Vector" width="18" height="18"></use>
+</svg>
+
+</div>
+  <div class="modal-complement"> <label for="mail">Пошта</label>
+  <input class="input-modal"type="email" name="mail" id="mail" placeholder="">
+</div>
+  <div class="modal-complement"><label for="comment">Коментар</label>
   <textarea name="comment" id="comment" cols="30" rows="0"></textarea>
+</div>
   <input type="checkbox" name="checkbox" id="checkboks">
   <label for="">Погоджуюся з розсилкою та приймаю Умови договору</label>
   <button class="buton-modal-send">Відправити</button>
-
 </form>
 </div>
 </div>
