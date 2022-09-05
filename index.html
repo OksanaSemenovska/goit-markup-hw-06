@@ -412,7 +412,7 @@
         <p class="join">підпишіться на розсилку</p>
       <form class="form-footer">
  <label for="meil" class="placeholder-footer">
-            <input type="text" name="E-mail" id="mail" placeholder="E-mail" class="footer-mail">
+            <input type="submit" name="E-mail" id="mail" placeholder="E-mail" class="footer-mail">
             </label>
             <button class="footer-booton-join">Підписатися
              <svg aria-label="іконка відправки" class="icon-send-footer">
@@ -463,6 +463,7 @@
   <input class="input-modal" type="email" name="mail" id="mail">
   <svg aria-label="" class="icon-vector-modal" width="12" height="12">
   <use href="./images/icons.svg#icon-Vector-2-tel"></use>
+  </svg>
 </div>
 </div>
 
@@ -472,14 +473,25 @@
   <textarea class="modal-comment" name="comments" id="comments" placeholder="Введіть текст"></textarea>
 </div>
 
-
-
-  <input type="checkbox" name="checkbox" id="checkboks">
-  <label for="">Погоджуюся з розсилкою та приймаю Умови договору</label>
-
-
-  <button class="buton-modal-send">Відправити</button>
 </form>
+
+<div class="agree-checkbox">
+   <label class="ch-text">
+ <input class="ch-input" type="checkbox" name="topic" id="checkboks">
+  <span class="ch-text-icon">
+ <svg class="icon-confirm">
+  <use href="./images/icons.svg#icon-confirm">
+  </use>
+ </svg>
+ </span>
+ Погоджуюся з розсилкою та приймаю 
+ <a href="#" class="ch-link">Умови договору</a></label>
+ </div>
+
+
+
+  <button class="buton-modal-send" type="submit">Відправити</button>
+
 </div>
 </div>
    <script src="./js/modal.js"></script>
