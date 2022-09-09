@@ -852,9 +852,8 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .leave-data-form {
-margin-bottom: 20px;
-margin-left: 40px;
-margin-right: 40px;  
+
+padding: 40px;
 }
 
 .leave-text {
@@ -864,7 +863,6 @@ margin-right: 40px;
     line-height: 23px;
     color: #212121;
     text-align: center;
-    padding-top: 40px;
 }
 
 
@@ -891,6 +889,7 @@ font-size: 14px;
 .modal-complement {
    
     position: relative;
+    margin-top: 4px;
 }
 
 .icon-vector-modal {
@@ -913,7 +912,7 @@ position: absolute;
 
 
 .form-send-modal {
-    padding-top: 12px;
+    margin-top: 10px;
 }
 
 
@@ -929,7 +928,7 @@ font-family: var(--primary-font);
 
 .modal-complement-2{
     margin-top: 10px;
-    margin-bottom: 20px;
+    
 }
 .modal-comment {
     display: block;
@@ -946,6 +945,8 @@ font-family: var(--primary-font);
             padding: 12px 16px;
             outline: none;
             cursor: pointer;
+            margin-top: 4px;
+            
 }
 
 
@@ -974,8 +975,9 @@ font-family: var(--primary-font);
 
 
 .agree-checkbox {
-    padding-bottom: 30px;
-    padding-left: 51px;
+    margin-bottom: 30px;
+    padding-left: 13px;
+    margin-top: 20px;
 }
 
 
